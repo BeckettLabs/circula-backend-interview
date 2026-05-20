@@ -6,7 +6,7 @@ A small Spring Boot starter project used for Circula's backend interviews. It bo
 
 - Spring Boot 3.5 (Web MVC, Data JPA, Data JDBC)
 - Kotlin 2.2 — you can write your code in **either Java or Kotlin**, whichever you prefer
-- H2 in-memory database
+- H2 in-memory database (available at `http://localhost:8080/h2-console` with username `sa` and no password)
 - JUnit 5
 - Maven (via the included Maven Wrapper — no local Maven install needed)
 

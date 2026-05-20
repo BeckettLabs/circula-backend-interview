@@ -8,21 +8,20 @@ A small Spring Boot starter project used for Circula's backend interviews. It bo
 - Kotlin 2.2 — you can write your code in **either Java or Kotlin**, whichever you prefer
 - H2 in-memory database
 - JUnit 5
-- Maven
+- Maven (via the included Maven Wrapper — no local Maven install needed)
 
 Use the IDE of your choice (IntelliJ IDEA, VS Code, Eclipse, …).
 
 ## Prerequisites
 
 - JDK 17
-- Maven 3.9+
 
 ## Running the app
 
 Unzip the project, then from the project root:
 
 ```sh
-mvn spring-boot:run
+./mvnw spring-boot:run
 ```
 
 The app starts on `http://localhost:8080`. Verify with:
@@ -35,7 +34,7 @@ curl http://localhost:8080/hello-world2
 ## Running the tests
 
 ```sh
-mvn test
+./mvnw test
 ```
 
 ## Before the interview

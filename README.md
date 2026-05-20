@@ -1,6 +1,6 @@
 # Circula Backend Interview
 
-A small Spring Boot starter project used for Circula's backend interviews. It boots up with a single `/hello` or `/hello-world` endpoint so you can confirm your environment is working before the interview begins.
+A small Spring Boot starter project used for Circula's backend interviews. It boots up with a `/hello-world` endpoint so you can confirm your environment is working before the interview begins.
 
 ## Tech stack
 
@@ -28,7 +28,8 @@ mvn spring-boot:run
 The app starts on `http://localhost:8080`. Verify with:
 
 ```sh
-curl http://localhost:8080/hello
+curl http://localhost:8080/hello-world
+curl http://localhost:8080/hello-world2
 ```
 
 ## Running the tests
